@@ -11,6 +11,6 @@ pkgbase = tinymist-bin
 	conflicts = tinymist-git
 	options = strip
 	source = https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.11.7/tinymist-linux-x64
-	sha256sums = 36e27e67a6930e51b2c04203a9e0bdeea1a352a1f96cb4026fe8c941c86d8af0
+	sha256sums = 139403907cd33fc0e7d56f144d2b7ff946dc8847550ab0f490964debb67c8204
 
 pkgname = tinymist-bin
