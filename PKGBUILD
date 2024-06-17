@@ -1,7 +1,7 @@
 # Maintainer: Alejandro Osornio <aoxo.contact@gmail.com>
 pkgname=tinymist-bin
 _pkgname=tinymist
-pkgver=0.11.10
+pkgver=0.11.11
 pkgrel=1
 pkgdesc="An integrated language service for Typst"
 arch=('x86_64')
@@ -11,11 +11,11 @@ options=('strip')
 provides=('tinymist')
 conflicts=('tinymist-git')
 depends=(gcc-libs glibc)
-source=("https://github.com/Myriad-Dreamin/tinymist/releases/download/v$pkgver/$_pkgname-linux-x64")
-sha256sums=('f6f331f1ed23a879474ab4dd1be0ef7c98e23be3f3ad601310c8d6e4cd65fea9')
+source=("https://github.com/Myriad-Dreamin/tinymist/releases/download/v$pkgver/$_pkgname-linux-x64?v=$pkgver")
+sha256sums=('fddb633536e63020955f951e41f55b5fde795fba2bb6cac3cbe5415fe97716e9')
 
 package() {
 	cd "$srcdir/"
-	mv "$_pkgname-linux-x64" "$_pkgname"
+	mv "$_pkgname-linux-x64?v=$pkgver" "$_pkgname"
 	install -Dm0755 -t "$pkgdir/usr/bin/" "$_pkgname"
 }
