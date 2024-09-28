@@ -1,6 +1,6 @@
 pkgbase = tinymist-bin
 	pkgdesc = An integrated language service for Typst
-	pkgver = 0.11.20
+	pkgver = 0.11.22
 	pkgrel = 1
 	url = https://github.com/Myriad-Dreamin/tinymist
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = tinymist-bin
 	provides = tinymist
 	conflicts = tinymist-git
 	options = strip
-	source = https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.11.20/tinymist-linux-x64?v=0.11.20
-	sha256sums = fc15d98196980ee679cd34c8a411699d50db7901c80fc223f3f68d41147a7060
+	source = https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.11.22/tinymist-linux-x64?v=0.11.22
+	sha256sums = 3940bcdcf4af63fa7d1aef99101f2f3d0f8fcf42a49b15822e5535eb95009884
 
 pkgname = tinymist-bin
