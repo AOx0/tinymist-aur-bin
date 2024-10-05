@@ -1,7 +1,7 @@
 # Maintainer: Alejandro Osornio <aoxo.contact@gmail.com>
 pkgname=tinymist-bin
 _pkgname=tinymist
-pkgver=0.11.22
+pkgver=0.11.28
 pkgrel=1
 pkgdesc="An integrated language service for Typst"
 arch=('x86_64')
@@ -12,7 +12,7 @@ provides=('tinymist')
 conflicts=('tinymist-git' 'tinymist-nightly-bin')
 depends=(gcc-libs glibc)
 source=("https://github.com/Myriad-Dreamin/tinymist/releases/download/v$pkgver/$_pkgname-linux-x64?v=$pkgver")
-sha256sums=('3940bcdcf4af63fa7d1aef99101f2f3d0f8fcf42a49b15822e5535eb95009884')
+sha256sums=('02d69efed81d43cb4982fc6554c86c5058a420984464999818a87e65dcb20d29')
 
 package() {
 	cd "$srcdir/"
